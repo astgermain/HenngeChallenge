@@ -1,7 +1,10 @@
 # Report
 
 ## I used React/Next.js to complete this challenge.
-## Run the project using npm run dev
+## Run the project
+### Make sure you have node installed
+### npm install
+### npm run dev
 
 ## Development notes
 ### I didn't implement an email sort by clicking fields such as to, from, date as I felt it was better left off with out a solid data set.
