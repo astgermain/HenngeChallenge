@@ -1,0 +1,243 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+
+.MuiPickersDateRangePickerInput-rangeInputsContainer {
+    display: block !important;
+    text-align: center !important;
+}
+
+.MuiOutlinedInput-input {
+    padding: 10px !important;
+    text-align: center;
+}
+
+.MuiFormControl-root {
+    padding: 10px !important;
+
+}
+
+.modalInput {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
+.modalClose {
+    padding: 15px;
+    display: block;
+}
+
+.description {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #d9d6d6;
+}
+
+.tableHeader{
+    width: 100%;
+    border-bottom: 1px solid #d9d6d6;
+    height: 50px;
+    background: #f0efef;
+}
+.numTo {
+    text-align: center;
+}
+.numToSpan {
+    background: #878787;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clip {
+    width: 15px;
+    display: inline-flex;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.dateAdjust {
+    padding-left: 25px;
+}
+
+.results {
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.59);
+    font-weight: 600;
+}
+
+.resultsNum {
+    font-size: 24px;
+}
+
+.headerTabs {
+    margin: auto;
+    color: rgba(0, 0, 0, 0.59);
+    font-weight: 600;
+    font-size: 16px;
+    height: 50px;
+}
+
+.mobileTabs {
+    margin: auto;
+    color: rgba(0, 0, 0, 0.59);
+    font-weight: 500;
+    font-size: 16px;
+    height: 50px;
+}
+
+.tableItem {
+    margin: auto;
+    color: rgba(0, 0, 0, 0.59);
+    font-weight: 600;
+    font-size: 18px;
+    height: 50px;
+    border-bottom: 1px solid #d9d6d6;
+    cursor: pointer;
+    width: 100%;
+    display: inline-flex;
+}
+
+.tableItem:hover {
+    background: #dedede;
+}
+
+.headerItem, .headerItem2, .headerItem3 {
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    font-weight: 400;
+}
+
+.mobileTabButton {
+    border: 0;
+    outline: none !important;
+    color: rgba(0, 0, 0, 0.59);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.logoNoMail {
+    display: flex;
+    margin: auto;
+}
+@media only screen and (min-width: 768px) {
+    .mobileTabs {
+        display: none;
+    }
+    .showMobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .description {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .headerTabs {
+        display: none;
+    }
+    .mobileTabs {
+        display: flex;
+    }
+    .tableItem {
+        height: 100px;
+        padding: 10px;
+    }
+    .hideMobile {
+        display: none;
+    }
+    .showMobile {
+        display: block;
+        text-align: right;
+        font-weight: 600;
+    }
+    .container {
+        padding: 0 !important;
+        width: 100% !important;
+    }
+    .headerItem {
+        padding-left: 35px;
+        float: left;
+        text-align: left;
+    }
+    .headerItem2 {
+        float: left;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .headerItem3 {
+        float: left;
+        text-align: left;
+    }
+    .mDate {
+        float: right;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .results {
+        padding-left: 20px;
+    }
+    .dateArrow {
+        width: 4px;
+        display: inline;
+        margin-left: 3px;
+    }
+    .mobileDivider {
+        color: #737373;
+        font-weight: 300;
+    }
+    .numTo {
+        text-align: right;
+    }
+    .numToSpan {
+        font-size: 10px;
+        display: table-cell;
+        float: right;
+    }
+    .grid {
+        display: block;
+    }
+}
